@@ -1,0 +1,2 @@
+(1)When I synthesize my design, I meet a warning: (WARNING: [Synth 8-7080] Parallel synthesis criteria is not met). I search the Xilinx official website. They explain that this warning indicates that the design is not large enough to benefit from parallel synthesis(https://support.xilinx.com/s/article/72150?language=en_US). The explanation seems to mean the warning is not caused by my design.
+(2)My testbench cannot stop automatically after finishing. Therefore, you need to stop manually. My testbench finishes at 6000 ns.
